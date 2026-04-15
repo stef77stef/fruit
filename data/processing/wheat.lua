@@ -2,7 +2,7 @@
 local wheatProcessingRecipes = {
     --{ name = "wheat-drying", ingredients = { { "wheat", 1 } }, result = "dried-wheat", result_count = 1, machine = "drying" },
     { name = "wheat-peeling", ingredients = { { "dried-wheat", 1 } }, result = "peeled-wheat", result_count = 1, machine = "husker" },
-    { name = "wheat-milling", ingredients = { { "peeled-wheat", 2 } }, result = "flour", result_count = 1, machine = "grinder" },
+    { name = "wheat-milling", ingredients = { { "peeled-wheat", 2 } }, result = "flour", result_count = 1, machine = "fruit-grinder" },
     --{ name = "flour-baking", ingredients = { { "wheat-flour", 1 }, { "water", 1 } }, result = "bread", result_count = 1, machine = "oven" },
 }
 
