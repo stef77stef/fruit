@@ -3,7 +3,7 @@ local coffeeRecipes = {
     { name = "coffee-seed-fermentation", ingredients = { { "coffee-seed", 1 } }, result = "fermented-coffee-seed", result_count = 1, machine = "fermentation" },
     --{ name = "coffee-seed-drying", ingredients = { { "fermented-coffee-seed", 1 } }, result = "dried-coffee-seed", result_count = 1, machine = "dryer" },
     { name = "coffee-seed-roasting", ingredients = { { "dried-coffee-seed", 1 } }, result = "coffee-bean", result_count = 1, machine = "oven" },
-    { name = "coffee-powder-grinding", ingredients = { { "coffee-bean", 1 } }, result = "coffee-powder", result_count = 1, machine = "grinder" },
+    { name = "coffee-powder-grinding", ingredients = { { "coffee-bean", 1 } }, result = "coffee-powder", result_count = 1, machine = "fruit-grinder" },
     { name = "coffee", ingredients = { { "coffee-powder", 1 }, { "water", 1 } }, result = "coffee", result_count = 1, machine = "agitator" },
 }
 
