@@ -655,11 +655,11 @@ agitator.graphics_set = {
 
 --Grinder
 local grinder = table.deepcopy(base)
-grinder.name = "grinder"
+grinder.name = "fruit-grinder"
 grinder.icon = "__fruit__/graphics/entity/grinder.png"
 grinder.icon_size = 512
-grinder.minable.result = "grinder"
-grinder.crafting_categories = { "grinder", }
+grinder.minable.result = "fruit-grinder"
+grinder.crafting_categories = { "fruit-grinder", }
 grinder.collision_box = shrinkBox(box4)
 grinder.selection_box = box4
 grinder.fluid_boxes = create_boxes_normal(4, 2, 2)
