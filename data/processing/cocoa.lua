@@ -17,7 +17,7 @@ local chocolateRecipes = {
     { name = "cocoa-bean-fermentation", ingredients = { { "cocoa-bean", 1 } }, result = "fermented-cocoa-bean", result_count = 1, machine = "fermentation" },
     --{ name = "cocoa-bean-drying", ingredients = { { "fermented-cocoa-bean", 1 } }, result = "dried-cocoa-bean", result_count = 1, machine = "spo" },
     { name = "cocoa-bean-roasting", ingredients = { { "dried-cocoa-bean", 1 } }, result = "roasted-cocoa-bean", result_count = 1, machine = "oven" },
-    { name = "cocoa-powder-grinding", ingredients = { { "roasted-cocoa-bean", 1 } }, result = "cocoa-powder", result_count = 1, machine = "grinder" },
+    { name = "cocoa-powder-grinding", ingredients = { { "roasted-cocoa-bean", 1 } }, result = "cocoa-powder", result_count = 1, machine = "fruit-grinder" },
     { name = "cocoa-liquor", ingredients = { { "cocoa-powder", 1 }, { "water", 1 } }, result = "cocoa-liquor", result_count = 1, machine = "agitator" },
     { name = "refined-chocolate", ingredients = { { "cocoa-liquor", 1 } }, result = "refined-chocolate", result_count = 1, machine = "pot" },
     { name = "chocolate-bar-molding", ingredients = { { "refined-chocolate", 1 } }, result = "chocolate", result_count = 1, machine = "press" },
