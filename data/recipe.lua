@@ -30,7 +30,7 @@ RECIPE {
 --        { type = "item", name = "wheat", amount = 2 },
 --    },
 --    results = { { type = "item", amount = 1, name = "flour" } },
---    category = "grinder",
+--    category = "fruit-grinder",
 --}:add_unlock( "food-processing")
 
 RECIPE {
