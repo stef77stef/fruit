@@ -1,7 +1,7 @@
 -- 定义稻谷处理链的配方
 local riceProcessingRecipes = {
     { name = "rice-husking", ingredients = { { "dried-rice", 1 } }, result = "rice", result_count = 1, machine = "husker" },
-    { name = "rice-flour-grinding", ingredients = { { "rice", 1 } }, result = "rice-flour", result_count = 1, machine = "grinder" },
+    { name = "rice-flour-grinding", ingredients = { { "rice", 1 } }, result = "rice-flour", result_count = 1, machine = "fruit-grinder" },
 }
 
 -- 添加配方到游戏中
