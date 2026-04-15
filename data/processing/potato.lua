@@ -7,7 +7,7 @@ local potatoRecipes = {
     { name = "potato-dicing", ingredients = { { "peeled-potato", 1 } }, result = "potato-dice", result_count = 4, machine = "cutting" }, -- 一个土豆切成多个丁
     { name = "potato-frying-slices", ingredients = { { "potato-slice", 3 }, { "olive_oil", 1 } }, result = "potato-chip", result_count = 4, machine = "pot" }, -- 用土豆片油炸
     { name = "potato-frying-shreds", ingredients = { { "potato-shred", 5 }, { "olive_oil", 1 } }, result = "french-fries", result_count = 6, machine = "pot" }, -- 用土豆丝油炸
-    { name = "mashed-potato-making", ingredients = { { "potato-dice", 3 }, { "milk", 1 } , { "butter", 1 } }, result = "mashed-potatoes", result_count = 1, machine = "grinder" }, -- 去皮土豆和牛奶制作土豆泥
+    { name = "mashed-potato-making", ingredients = { { "potato-dice", 3 }, { "milk", 1 } , { "butter", 1 } }, result = "mashed-potatoes", result_count = 1, machine = "fruit-grinder" }, -- 去皮土豆和牛奶制作土豆泥
     { name = "baked-potato-making", ingredients = { { "washed-potato", 1 } }, result = "baked-potato", result_count = 1, machine = "bbq" }, -- 清洗后的土豆直接烘烤
 }
 
