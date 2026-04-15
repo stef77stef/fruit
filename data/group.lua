@@ -63,7 +63,7 @@ local RecipeCategory = {
     "icecream",
     "oven",
     "agitator",
-    "grinder",
+    "fruit-grinder",
     "press",
     "incubator",
     "cutting",
